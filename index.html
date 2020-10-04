@@ -13,59 +13,61 @@
   </head>
 
   <body">
-    <header>
+    <header class="">
+      <section class="container navmenu">
 
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#"><img src="img/dark logo.svg" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="img/dark logo.svg" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-2">
+              <li class="nav-item mr-3 active">
+                <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Product</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0" >
+              <input class="form-control mr-sm-2" type="email" placeholder="Your Email" aria-label="Email">
+              <button class="btn btn-menu btn-outline-primary my-2 my-sm-0" type="submit">Subscribe</button>
+            </form>
+          </div>
+        </nav>
+        
+      </section>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mr-2">
-            <li class="nav-item mr-3 active">
-              <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-white" href="#">Product</a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-white" href="#">Pricing</a>
-            </li>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 p-0">
+            <img src="img/img-body.png" alt="" srcset="">
+          </div>
+          <div class="offset-md-1 col-md-5 pt-5 text-white">
+            <h2 class="mx-auto p-2" style="font-weight: bold">We focus on<br> ergonomics</h2>
+            <p class="mx-auto p-2" style="">Most calendars are designed for teams.<br>
+            Slate is designed for freelancers</p><br>
+            <button class="btn btn-try-white btn-outline-primary mr-sm-2 px-5 pt-3 pb-3" type="submit">Try For Free</button>
             
-            <li class="nav-item mr-3">
-              <a class="nav-link text-white" href="#">About</a>
-            </li>
-            <li class="nav-item mr-3">
-              <a class="nav-link text-white" href="#">Contact</a>
-            </li>
+          </div>
 
-          </ul>
-          <form class="form-inline my-2 my-lg-0" >
-            <input class="form-control mr-sm-2" type="email" placeholder="Your Email" aria-label="Email">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Subscribe</button>
-          </form>
         </div>
-      </nav>
-      
+
+      </section>
     </header>
-    
-    <section class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="img/img-body.png" alt="" srcset="">
-        </div>
-        <div class="offset-md-1 col-md-5 pt-5 text-white">
-          <h2 class="mx-auto p-2" style="font-weight: bold">We focus on<br> ergonomics</h2>
-          <p class="mx-auto p-2" style="">Most calendars are designed for teams.<br>
-          Slate is designed for freelancers</p><br>
-          <button class="btn btn-outline-primary mr-sm-2 px-5 pt-3 pb-3" type="submit">Try For Free</button>
-          
-        </div>
-
-      </div>
-
-    </section>
 
 
 
@@ -78,7 +80,7 @@
       
       <div class="row text-white">
         
-        <div class="col-md-4 ">
+        <div class="col-md-4">
           <h5><img src="img/icones/ic_round-restaurant-menu-1.svg" alt="Icone 1">best products start with Sketch</h5>
           <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
         </div>
@@ -99,9 +101,6 @@
 
     </section>
 
-
-
-
     <section class="text-center p-5">
       <div class="container text-white p-5">
         <h2>Lightning fast prototyping </h2>
@@ -109,7 +108,7 @@
         Slate is designed for freelancers</p>
       </div>
 
-      <button class="btn btn-outline-primary mr-sm-2 px-5 pt-3 pb-3 " type="submit">Try For Free</button>
+      <button class="btn-try btn btn-outline-light mr-sm-2 px-5 pt-3 pb-3 " type="submit">Try For Free</button>
 
     </section>
 
@@ -149,46 +148,69 @@
       
       <div class="row text-white p-5">
         
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5">
           <p>Client Name</p>
-          <img src="img/logos_apiary.svg" alt="Logo Apiary">
+          <img class="p-4" src="img/logos_apiary.svg" alt="Logo Apiary">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5 ">
           <p>Client Name</p>
-          <img src="img/logos_android-icon.svg" alt="Logo Android">
+          <img class="p-4" src="img/logos_android-icon.svg" alt="Logo Android">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5">
           <p>Client Name</p>
-          <img src="img/logos_basecamp.svg" alt="Logo Basecamp">
+          <img class="p-4" src="img/logos_basecamp.svg" alt="Logo Basecamp">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5">
           <p>Client Name</p>
-          <img src="img/logos_basecamp-1.svg" alt="Logo Basecamp">
+          <img class="p-4" src="img/logos_basecamp-1.svg" alt="Logo Basecamp">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5">
           <p>Client Name</p>
-          <img src="img/logos_airbnb.svg" alt="Logo Airbnb">
+          <img class="p-4" src="img/logos_airbnb.svg" alt="Logo Airbnb">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
-        <div class="col-md-4 ">
+        <div class="col-md-4 p-5">
           <p>Client Name</p>
-          <img src="img/logos_apple-app-store.svg" alt="Logo App Store">
+          <img class="p-4" src="img/logos_apple-app-store.svg" alt="Logo App Store">
           <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
         </div>
 
         
         
       </div>
-      <button class="btn btn-outline-primary mr-sm-2 px-5 pt-3 pb-3" type="submit">Try For Free</button>
+      <button class="btn-try btn btn-outline-light mr-sm-2 px-5 pt-3 pb-3 " type="submit">Try For Free</button>
+
+    </section>
+
+    <section class="py-5 text-center">
+      <div class="container text-white">
+        <h2>Testimonials</h2>
+        
+        <img class="p-5" src="img/Rectangle.png" alt="">
+        
+        <p class="mx-auto p-2">Most calendars are designed for teams. Slate is designed for freelancers who want a simple<br> way to plan their schedule.</p>
+      </div>
+      <div class="row text-white p-5">
+        <div class="col-12 d-flex justify-content-center">
+            <img src="img/ellipse.svg" alt="Icone 2">
+            <div class="text-left">
+              <h5 class="h6 smal m-2 pt-2">Organize across</h5>
+              <p class="small m-2">Ui designer</p>
+            </div>
+            
+        </div>
+        
+      </div>
+      <button class="btn-testmonials btn btn-outline-light mr-sm-2 px-5 pt-3 pb-3 " type="submit">More Testimonials</
 
     </section>
 
