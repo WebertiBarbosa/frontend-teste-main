@@ -329,8 +329,13 @@ header{
   margin-right: 2.5rem;
 }
 
+.list {
+  color: #ffffff;
+}
+
+
 @media (min-width: 768px) {
-  .altera-img {
+  #clear {
     
   }  
 }
